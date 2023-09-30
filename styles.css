@@ -43,7 +43,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 18px;
+    
 }
 
 
@@ -73,7 +74,7 @@ h5 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+
 
 }
 
@@ -196,28 +197,26 @@ button:active {
 }
 
 @media (max-width:1000px)
+
 {
-    ul{
-        display: flex;
-        flex-wrap: wrap;
-       
-    }
-   
-    li:hover
-    {
-       scale: 1.1;
-    }
-      
-    header{
-          background: linear-gradient(120deg, #0000008f  50%, #79cb1557 50%);
-        box-shadow: 0 0 10px purple, 0 0 5px rgb(182, 87, 182);
-    }
+
+   body{
+    
+    display: grid;
+    
+   }
+
 
     header a, h5{
         display: none;
+
     }
 
-    button{
-        width: 100px;
-    }
-}
+   header{
+       justify-content: center;
+       align-items: center;
+       height: 15vh;
+   }
+    
+     
+   }
