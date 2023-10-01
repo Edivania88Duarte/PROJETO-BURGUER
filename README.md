@@ -51,6 +51,6 @@ ver, como o cardápio da casa, o valor das promoções, o valor total do menu e 
 
 ## 🧪 EXPERIÊNCIA:
 Os usuários podem visualizar o cardápio ao clicar no botão do <u><i><b>Cardápio</b></i></u> (nesse botão foi utilizado a função show-all, que através da propriedade <b>FOR EACH</b>, chama todos os produtos da casa). Ao total são 12 sanduíches, que podem ser visualilzados
-descendo pela barra scrum, localizada na lateral direita da página; Ao clicar no botão <u><i><b>Promoções</b></i></u>, o cliente consegue ver os valores dos sanduíches com 10% de de desconto, pois foi aplicado através da propriedade <b>MAP</b>, 10% de desconto no valor individual de cada produto;
+descendo pela barra scroll, localizada na lateral direita da página; Ao clicar no botão <u><i><b>Promoções</b></i></u>, o cliente consegue ver os valores dos sanduíches com 10% de de desconto, pois foi aplicado através da propriedade <b>MAP</b>, 10% de desconto no valor individual de cada produto;
 Já no botão <u><i><b>Valor Total</b></i></u>, é possível que o ciente veja o valor total total de todo o menu, pois através da aplicação da propriedade <b>REDUCE</b>, é possível chegar ao valor final de tudo; E por fim, ao clicar no botão <u><i><b>Veganos</b></i></u>, o cliente visualiza apenas os produtos veganos.
 uma vez que o <b>FILTER</b>, é quem faz esse filtro e puxa apenas, o que estão listados como true, na aba products.js.
