@@ -98,9 +98,8 @@ h5 {
     padding: 20px;
 }
 
-ul {
+.list {
     list-style: none;
-    display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
@@ -108,7 +107,7 @@ ul {
   
 }
 
-li {
+li {    
     padding: 5px;
     border: 2px solid #8133ff;
     border-radius: 5px;
@@ -192,11 +191,13 @@ button:hover {
 }
 
 
-button:active {
+button:active {76
     opacity: 0.7;
 }
 
-@media (max-width:1000px)
+
+
+@media (max-width:768px)
 
 {
 
