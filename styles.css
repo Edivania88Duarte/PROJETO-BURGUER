@@ -198,7 +198,7 @@ button:active {
 
 
 
-@media screen and (max-width:450px)
+@media only screen and (max-width:450px)
 
 {
 
@@ -206,7 +206,7 @@ button:active {
     
     display: grid;
     margin: 0 auto;
-    
+   
    }
 
 
