@@ -218,16 +218,20 @@ button:active {
        justify-content: center;
        align-items: center;
        height: 15vh;
-       margin-left: -30%;
+       width: 100vw;
        font-size: 1rem;
-       flex-wrap: wrap
-             
+                  
       
+   }
+
+   header .container-buttons {        
+        flex-wrap: wrap;
    }
     
      
    }
 
    li {
-    margin-left: -15%;
+      margin-left: -15%;
+
    }
