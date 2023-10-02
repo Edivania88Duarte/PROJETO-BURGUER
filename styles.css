@@ -191,7 +191,8 @@ button:hover {
 }
 
 
-button:active {76
+button:active {
+    
     opacity: 0.7;
 }
 
