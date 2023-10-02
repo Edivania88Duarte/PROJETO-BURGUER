@@ -198,7 +198,7 @@ button:active {
 
 
 
-@media (max-width:768px)
+@media screen and (max-width:400px)
 
 {
 
@@ -218,7 +218,16 @@ button:active {
        justify-content: center;
        align-items: center;
        height: 15vh;
+       margin-left: -30%;
+       font-size: 1rem;
+       flex-wrap: wrap
+             
+      
    }
     
      
+   }
+
+   li {
+    margin-left: -15%;
    }
