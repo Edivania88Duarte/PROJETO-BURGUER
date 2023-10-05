@@ -53,7 +53,7 @@ header a {
     text-align: end;
     font-size: 3rem;
     background: linear-gradient(45deg, #964c6a, #7ff81b, #c74890, #ce18d8);
-    background-size: 400% 100%;
+    background-size: 400% ;
     animation: degrade 10s linear infinite alternate;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,6 +96,7 @@ h5 {
     align-items: center;
     gap: 20px;
     padding: 20px;
+    
 }
 
 .list {
@@ -221,11 +222,17 @@ button:active {
        height: 15vh;
        width: 100vw;
        font-size: 1rem;
+    
+       
+       
+       
+
                   
       
    }
 
-   header .container-buttons {        
+   header .container-buttons {   
+             
         flex-wrap: wrap;
    }
     
@@ -237,3 +244,4 @@ button:active {
 
    } 
 
+  

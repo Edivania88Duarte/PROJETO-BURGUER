@@ -36,7 +36,7 @@ function showAll(productsArray) {
 }
 
 function mapAllItems() {
-    const newPrices = menuOptions.map((product) => ({
+    const newPrices = menuOptions.map((product) => ( {
         ...product,
         price: product.price * 0.9,
 
